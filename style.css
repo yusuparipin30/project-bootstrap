@@ -1,0 +1,75 @@
+.navbar {
+
+    background: blue;
+    border-bottom: #333 3px solid;
+    opacity: 0.8;
+}
+
+.dark-overlay {
+    /*membuat transparan 0.7*/
+    background-color: rgba(0, 0, 0, 0.7);
+    /*supaya posisinya tidak bergerak*/
+    position: absolute;
+    /*position berhubungan dg top,left*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+}
+
+#home-section {
+    /*bacgroun home-section*/
+    background: url(./img/room.jpg);
+    /*batas gambar*/
+    min-height: 700px;
+    /*supaya bacground gambar tidak melebar kemana-mana tetap di home section*/
+    background-size: cover;
+    /*supaya bacgroun tidak ikut scrolling*/
+    background-attachment: fixed;
+}
+
+#home-section .fa {
+    color: black;
+    background: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#explore-section .fa {
+    color: #fff;
+    background-color: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#create-section .fa {
+    color: slateblue;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#share-section .fa {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.card-form {
+    opacity: 0.5;
+}
+
+.home-inner {
+    padding-top: 150px;
+
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
